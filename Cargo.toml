@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Trym Kristiansen <trym@trymk.no>"]
 edition = "2018"
 
+[profile.release]
+opt-level = 3
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
@@ -11,3 +14,8 @@ image = "0.22.3"
 num = "0.2.0"
 multiqueue = "0.3.2"
 indicatif = "0.13.0"
+rug = "1.6.0"
+
+[dependencies.gmp-mpfr-sys]
+default-features = false
+features = ["mpfr"]
