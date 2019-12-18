@@ -15,6 +15,7 @@ num = "0.2.0"
 multiqueue = "0.3.2"
 indicatif = "0.13.0"
 rug = "1.6.0"
+palette = "0.5.0"
 
 [dependencies.gmp-mpfr-sys]
 default-features = false
